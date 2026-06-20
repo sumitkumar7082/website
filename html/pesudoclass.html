@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a:link{
+            color: red;
+        }
+        a:active{
+            color: green;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        a:visited{
+            color: hsl(271, 21%, 55%);
+        }
+        input:focus{
+            border:5px solid black;
+        }
+        /* p::before{
+            content: '😅';
+        }
+        p::after{
+            content:'😅';
+        } */
+         /* p::first-letter{
+            font-size: 20px;
+            font-weight: bold;
+         }
+         p::first-line{
+            color: aquamarine;
+         }
+         p::selection{
+            color: pink;
+         } */ 
+
+
+         button,a:hover{
+            background-color: aqua;
+         }
+         p::selection{
+            background-color: brown;
+         }
+         button,a:active{
+            color: rgb(160, 95, 96);
+         }
+         p::first-letter{
+            font-size: 10px;
+            font-weight: bold;
+         }
+         p::after{
+            content: '😂';
+         }
+         /* p::before{
+            content: '😂';
+         }    */
+         
+         button,a:visited{
+            color: rgb(0, 255, 179);
+         }
+         p::first-letter{
+            background-color: aqua;
+         }
+         p::first-line{
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+         }
+         p::before{
+            content: '😀 😂 😊 😎 😜';
+         }
+         /* input:checked{
+            accent-color: red;
+         } */
+          /* input[type="cheakbox"]{
+             accent-color: rgb(0, 255, 166);
+          } */
+          .separator li::after {
+                content: " | ";
+                }
+             .separator li:last-child::after {
+              content: "";
+              }
+
+/* 15. Disabled */
+            input:disabled {
+             background-color: lightgray;
+            }
+
+/* 16. Checked */
+              input:checked {
+                 accent-color: green;
+             }
+
+/* 17. Empty */
+              .empty-box:empty {
+               background: yellow;
+               height: 20px;
+              }
+
+/* 18. Except one */
+                .exclude li:not(:first-child) {
+               color: gray;
+               }
+
+/* 19. Custom checkbox */
+                   .custom-checkbox input {
+                    accent-color: red;
+                   }
+
+/* 20. Custom bullets */
+                  .custom-list {
+                   list-style: none;
+                       }
+                     .custom-list li::before {
+                      content: "⭐ ";
+                    }
+
+    </style>
+</head>
+<body>
+    <!--  pesudo class and pesudo selectors 
+      :link:- unvisited 
+      :active
+      :hover
+      :visited
+      : -->
+      <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, voluptate provident maxime expedita ea ut laudantium quo accusantium facere velit corporis est saepe magni error dolorem quae illo! Repudiandae, error?</p>
+      <a href="http://">click on me</a>
+      <input type="text"> -->
+
+      <button ><a href="http//">hello click on</a>
+
+      </button>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia voluptatibus ad minima nostrum! Maxime molestiae ut voluptates saepe possimus sed mollitia! Quaerat sunt tempora, eveniet molestiae accusantium praesentium expedita?
+      </p>
+       
+        
+
+
+      <ul class="separator">
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+</ul>
+
+<!-- 15 -->
+<input type="text" disabled value="Disabled Field"><br><br>
+
+<!-- 16 -->
+<input type="checkbox" checked> Checked Box<br><br>
+
+<!-- 17 -->
+<div class="empty-box"></div><br>
+
+<!-- 18 -->
+<ul class="exclude">
+  <li>Main Item</li>
+  <li>Other 1</li>
+  <li>Other 2</li>
+</ul>
+
+<!-- 19 -->
+<div class="custom-checkbox">
+  <input type="checkbox"> Custom Checkbox
+</div>
+
+<!-- 20 -->
+<ul class="custom-list">
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Mango</li>
+</ul>
+</body>
+</html>

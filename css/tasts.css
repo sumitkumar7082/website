@@ -1,0 +1,59 @@
+/* div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+button{
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+#box{
+    color: darkcyan;
+    text-align: center;
+
+}
+.card{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    
+} */
+
+
+p{
+    color: magenta;
+    font-size: 25px;
+}
+
+.musi{
+    background-color: mediumspringgreen;
+    
+}
+#musi2{ 
+    text-align: center;
+}
+
+*{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h1,h2,h3{
+    color: brown;
+}
+
+div p{
+    font-size: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+div > p{
+  font-size: 10px;
+  background-color: black;
+  color: aliceblue;
+}

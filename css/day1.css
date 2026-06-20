@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to right, #ff0000, #0000ff,orange,green);
+}
+.lor{
+    font-size: 100px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant:small-caps ;
+      
+}
+.sum{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+div { height: 500px;
+    width: 500px;
+    background-color: rgb(251, 249, 249);
+    color: rgb(26, 16, 16);
+    border: 2px solid red;
+    border-radius: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+div i{
+    font-size: 300px;
+}

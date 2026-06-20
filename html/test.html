@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     nav{
+        height: 30px;
+        width: 100%;
+        background-color: #333;
+        /* padding: 10px; */
+        
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        font-size: 25px;
+        gap : 20px;
+       
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+            /* align-items: center; */
+        }
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 16px;
+        text-align: center;
+        margin-top: 20px;
+        transition: 0.3s;
+        background-color: lightgray;
+    }
+    .card:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    /* .sel{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    } */
+
+    .sel p{
+    font-size: 50px;
+    color: lightgreen
+    }
+
+    .card-text{
+    font-size: 16px;
+    color: lightcoral;
+    }
+
+    .card2{
+    font-size: 28px;
+    color: lightblue;
+    }
+
+    .q9{
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: lightgray;
+    }
+    .q9 header{
+        background-color: lightblue;
+        padding: 10px;
+        text-align: center;
+    }
+    .q9 footer{
+        background-color: rgb(173, 230, 215);
+        padding: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    </style>
+
+
+</head>
+<body>
+    <!-- Q1. 
+    ans= 
+   1.  semantic  tags are those tags that have a meaning and purpose. example <header>, <nav>, <article>, <section>, <footer> etc.
+   2.   non semantic tags are those tags that do not have a meaning and purpose. example <div>, <span> etc.
+
+    Q2
+    ans= creat a box is hight and width. box model 4 property margin, border, padding and content 
+         1. margin = dispaly the space .
+         2. border= box out side border.
+         3. padding= box in side space . 
+         4. content = box in side write a contant .
+
+    Q3
+    ans= 1 position: static = default position of element.
+         2. position: relative = element position is relative to its normal position.
+         3. position: fixed = element position is fixed to the viewport and does not move when scrolled.
+         4. position: absolute = element position is relative 
+         5. position: sticky = element position is based on the user's scroll position.
+
+
+   
+
+    Q6
+    ans=   --> <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+    </nav>
+
+    <!-- Q7.
+    ans=  --> <div class=" card">
+        <img src="/video/Screenshot 2025-11-14 144912 12.png" alt="">
+        <h2>My Image</h2>
+        <p>Description of the image.</p>
+
+    </div>
+
+    <!-- Q8
+    ans=  --> <div class="sel">
+        <p class="card-text" id="card2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, natus!
+
+        </p>
+
+    </div>
+    <!-- Q9
+    ams= -->
+
+    <div class="q9">
+        <header>
+            <h1>my name sumit kumar</h1>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, natus!</p>
+
+        <footer>
+            <p>Copyright © 2024 Your Company. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

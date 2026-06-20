@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <link rel="stylesheet" href="../css/boxtasks.css">
+    <style>
+        .container{
+            height:100px;
+            width:200px;
+            border:2px solid black;
+            padding: 20px 40px 30px 10px;
+            box-sizing: border-box;
+            margin: 10px 30px 20px 20px;
+        }
+        .ss{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            text-align: justify;
+            /* text-transform: uppercase; */
+            /* text-indent: 30px; */
+            /* text-decoration-line: underline ; */
+            /* text-decoration-style: wavy;
+            text-decoration-thickness: 2px;
+            text-decoration-color: aquamarine;
+            line-height: 60px;
+            word-spacing: 20px;
+            letter-spacing: 20px;
+            text-shadow: 3px 3px 1px rgb(166, 12, 37); */
+
+            
+        }
+        .ss1{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin-left: 300px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            /* justify-self: center; */
+            background-image: image("C:\Users\sr070\OneDrive\Desktop\redstore\images\w1 (3).jpg");
+
+
+            
+        }
+        .ss2{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: center;
+
+
+            
+        }
+        .ss3{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin-right: 300px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: end;
+
+
+            
+        }
+        .ss4{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: end;
+
+
+            
+        }
+        .ss5{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: end;
+
+
+            
+        }
+        .ss6{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin-right: 300px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: end;
+
+
+            
+        }
+        /* .ss7{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: end; */
+
+
+            
+        
+        .ss8{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin-left: 300px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: start;
+
+
+            
+        }
+        .ss9{
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            padding: 30px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+            color: brown;
+            border-radius: 2px;
+            justify-self: start;
+
+
+            
+        }
+        .s1{
+          height:300px;
+          width:400px;
+          /* border: 2px solid black; */
+       /* border-width: 3px;
+       border-style: solid;
+       border-color: black; */
+       /* border-top-width: 10px;
+       border-top-style: dotted;
+       border-top-color: aquamarine;
+       border-left-width: 10px;
+       border-left-style: dotted;
+       border-left-color: aquamarine; */
+       border: 5px solid black;
+       /* border-radius: 15px; */
+       border-top-left-radius: 20px;
+       border-bottom-right-radius:20px;
+       font-size: 30px;
+       font-weight: bold;
+       font-style: italic;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-variant: small-caps;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <!--  box model :- it is reactangle based box which consist these content 
+      content>padding>border>margin
+      content :- nornam text inside the box
+      padding:- extra space arrounding the content
+      border:it is container outside the box
+      margin:- outerspace of the border side.
+      -->
+    <div class="container">
+          hiii
+    </div>
+
+    <div class="ss">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+     <!-- <div class="ss1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+     <div class="ss2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+     <div class="ss3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+     <div class="ss4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+    <div class="ss5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+    <div class="ss6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+    <!-- <div class="ss7">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div> 
+    <div class="ss8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+    <div class="ss9">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+     <div class="s1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis libero, 
+        labore quisquam quis sunt quaerat ex eum autem neque voluptas sequi laborum quia dolorem veniam quam repellat totam? Minima!
+    </div>
+<!-- 
+    box model tasks 
+
+    <div class="t1">
+
+    </div>
+
+
+    <div class="t2">
+
+    </div>
+
+    <div class="t3">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, voluptas! Quod consequatur neque reprehenderit, temporibus nemo repudiandae laudantium id perspiciatis molestiae porro, excepturi in omnis voluptatum voluptates non perferendis unde.</p>
+
+    </div>
+
+    <div>
+        <div class="tw1"></div>
+        <div class="tw2"></div>
+    </div>
+
+    <div class="t5">
+          t5
+    </div>
+    <div class=" t6">
+
+    </div>
+    <div class="t7">
+
+    </div>
+    <div class="t8">
+
+    </div>
+<br><br>
+
+    <div class="t9">
+
+    </div>
+    <br><br>
+    <div class="t10">
+      
+    </div>
+    <br><br>
+    <div class="t11">
+
+
+    </div>
+    <br><br>
+    <div class="t12">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis, tempore inventore nemo voluptas saepe vero minus laborum tenetur aspernatur sunt ea sequi? Laborum vero perferendis, consectetur est beatae quae.</p>
+    </div>
+    <div class="t112">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel, exercitationem magni voluptatum reprehenderit debitis, quae enim et deserunt pariatur quam, quod similique quidem amet hic aliquam non sequi sint!</p>
+    </div>
+    <br><br>
+    <div class="t13">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A libero illo corrupti deserunt magni odit sit repellat? Quibusdam eius tempora iure, quam alias maxime nulla dolorem fugiat obcaecati deleniti accusamus.</p>
+    </div>
+    <div class="t113">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus ipsam officiis omnis alias unde quaerat! Sequi sint praesentium quia perspiciatis odit quod dolor, ullam id reiciendis velit earum facere!</p>
+    </div>
+
+    <div class="t14" >
+        <h1>hello world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur autem nulla aliquid recusandae neque dolore saepe laudantium ipsa, est beatae alias officiis eius quibusdam voluptatum magni impedit vero. Eligendi.</p>
+    </div>
+
+<p style="background-image: url('C:\Users\sr070\OneDrive\Desktop\redstore\images\w1 (3).jpg'); " >
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia nihil dignissimos eius sit consequuntur officia maxime sunt, repellat earum ullam, similique obcaecati non nisi enim blanditiis ad possimus iusto vero.
+</p> -->
+
+
+
+    
+
+
+
+
+</body>
+</html>
